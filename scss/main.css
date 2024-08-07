@@ -90,6 +90,7 @@ legend {
   --main-font-color: #000;
   --accent-color: #0091d2;
   --white-color: #fff;
+  --light-blue-background: rgba(0, 145, 210, 0.1);
 }
 
 body {
@@ -125,6 +126,18 @@ body a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.block-heading {
+  font-size: 64px;
+  line-height: 120%;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.block-paragraph {
+  font-size: 24px;
+  line-height: 120%;
 }
 
 .header__row {
@@ -194,15 +207,109 @@ body a {
 }
 
 .header__slider-description__heading {
-  font-size: 64px;
-  line-height: 120%;
-  font-weight: 700;
   margin-bottom: 24px;
   max-width: 710px;
 }
 
 .header__slider-description__paragraph {
-  font-size: 24px;
-  line-height: 120%;
   max-width: 765px;
+}
+
+.reasons {
+  background-color: var(--light-blue-background);
+  border-radius: 30px;
+  margin-top: 58px;
+}
+
+.reasons__description {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.reasons__wrapper {
+  padding: 48px 0;
+}
+
+.reasons__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 24px;
+}
+
+.reasons__list-item {
+  background-color: var(--white-color);
+  max-width: 517px;
+  padding-top: 48px;
+  padding-left: 32px;
+  padding-bottom: 40px;
+  padding-right: 43px;
+  border-radius: 30px;
+}
+.reasons__list-item img {
+  margin-bottom: 32px;
+}
+
+.reasons__list-item__heading {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.reasons__list-item__description {
+  max-width: 426px;
+  font-size: 24px;
+}
+
+.benefits {
+  padding: 144px 0;
+}
+
+.benefits__description {
+  text-align: center;
+  max-width: 1180px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.benefits__content {
+  display: flex;
+  gap: 34px;
+  margin-bottom: 80px;
+}
+
+.benefits__list {
+  display: grid;
+  gap: 40px;
+}
+
+.benefits__list-item {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.benefits__list-item__description {
+  max-width: 450px;
+}
+
+.benefits__list-item__description-heading {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.benefits__list-item__description-info {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.benefits__offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefits__offer-heading {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 40px;
 }/*# sourceMappingURL=main.css.map */

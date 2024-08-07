@@ -1,0 +1,22 @@
+.header__row {
+    display: flex;
+    margin-top: 24px;
+    padding: 32px 48px;
+
+    align-items: center;
+
+    border: 1px solid #ededed;
+    border-radius: 30px;
+    
+}
+.nav__list {
+    display: flex;
+    gap: 80px;
+
+    justify-self: center;
+
+    font-size: 18px;
+}
+.header__logo {
+    margin-right: 138px;
+}

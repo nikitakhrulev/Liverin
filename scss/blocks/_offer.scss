@@ -1,0 +1,152 @@
+.offer {
+    padding: 144px 0;
+}
+.offer__intro {
+    text-align: center;
+}
+.offer__heading-wrapper {
+    font-weight: 700;
+    font-size: 40px;
+
+    margin-bottom: 48px;
+}
+
+.offer__timer-wrapper {
+    .offer__timer {
+        color: var(--timer-color);
+    }
+    p {
+        font-weight: 700;
+        font-size: 32px;
+
+        margin-bottom: 24px;
+    }
+
+}
+.offer__main {
+    display: flex;
+    gap: 64px;
+}
+.offer__grey {
+    background-color: var(--grey-color);
+    height: 925px;
+}
+.offer__blue {
+    background-color: var(--light-blue-background);
+}
+.offer__item {
+    border-radius: 30px;
+
+    text-align: center;
+}
+.offer__content {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+
+    height: 100%
+}
+.offer__sale-wrapper {
+    padding: 0 56px;
+    margin-bottom: 16px;
+
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--accent-color);
+    p {
+        background-color: var(--white-color);
+        border-radius: 30px;
+        padding: 16px 61px;
+    }
+}
+
+.offer__benefits-list {
+    display: grid;
+    gap: 16px;
+
+    margin-bottom: 24px;
+
+
+    padding: 0 32px 0 24px;
+
+    text-align: start;
+}
+.offer__benefits-list__item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+.offer__benefits-list__item-image {
+    img {
+        width: 24px;
+        height: 24px;
+    }
+
+}
+.offer__price {
+    margin-bottom: 16px;
+}
+.offer__price, .offer__envio {
+    display: flex;
+    gap: 8px;
+    
+    padding: 0 24px;
+    
+    font-weight: 700;
+    font-size: 24px;
+}
+.offer__price-before {
+    text-decoration: line-through;
+
+    font-weight: 400;
+}
+.offer__price-name, .offer__envio-name {
+    color: var(--accent-color);
+}
+.offer__buy {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    max-width: 252px;
+    margin: auto auto 0;
+    // margin-top: auto;
+
+    border-radius: 30px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+
+    padding: 12px 32px;
+
+    .arrow-wrapper {
+        background-color: var(--white-color);
+        border-radius: 50%;
+        padding: 13px 10px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.offer__item-heading__wrapper {
+    margin-bottom: 8px;
+
+    font-weight: 700;
+    font-size: 32px;
+}
+.offer__save {
+    margin-bottom: 16px;
+
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--accent-color);
+}
+.offer__description {
+    font-size: 18px;
+    text-align: center;
+
+    margin-bottom: 16px;
+}
+.offer__img {
+    margin-bottom: 16px;
+}

@@ -1,0 +1,42 @@
+.steps__heading-wrapper {
+    font-weight: 700;
+    font-size: 64px;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 80px;
+}
+
+.steps__list-wrapper {
+    margin-bottom: 40px;
+}
+.steps__list {
+    display: flex;
+    gap: 24px;
+}
+.steps__list-item {
+    border: 1px solid #f1f1f1;
+    border-radius: 30px;
+    flex: 1 1 30%;
+    img {
+        margin-bottom: 24px;
+    }
+    .steps__list-item__heading {
+        margin-bottom: 16px;
+        font-weight: 700;
+        font-size: 32px;
+    }
+    .steps__list-item__desciption {
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+.steps__list-item__content {
+    max-width: 400px;
+    padding: 0 24px 76px 24px;
+}
+.steps__anchor-offer__wrapper {
+    display: flex;
+    justify-content: center;
+}

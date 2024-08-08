@@ -1,0 +1,50 @@
+.life {
+    background-color: var(--light-blue-background);
+
+    .container {
+        padding: 48px 0;
+    }
+}
+.life__heading-wrapper {
+    text-align: center;
+    margin-bottom: 80px;
+
+    .block-paragraph {
+        max-width: 932px;
+        margin: 0 auto;
+    }
+}
+.life__content {
+    display: flex;
+    gap: 21px;
+}
+.life__content-image {
+    img {
+        border-radius: 30px;
+    }
+}
+.life__content-info__list-item__heading {
+    font-weight: 700;
+    font-size: 32px;
+}
+.life__content-info__list-item__description {
+    font-weight: 400;
+    font-size: 24px;
+
+    max-width: 456px;
+}
+.life__content-info__list {
+    display: grid;
+    gap: 40px;
+}
+.life__content-info__list-item {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    
+}
+.life__content-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
